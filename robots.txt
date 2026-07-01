@@ -1,4 +1,15 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://franlopes.com.br/sitemap.xml
+{
+  "name": "Pare de Se Abandonar — Francielle Lopes",
+  "short_name": "Pare de Se Abandonar",
+  "description": "Guia terapêutico em PDF para mulheres que se perdem tentando ser amadas.",
+  "lang": "pt-BR",
+  "start_url": "/pare-de-se-abandonar",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#1E1410",
+  "theme_color": "#1E1410",
+  "icons": [
+    { "src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
